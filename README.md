@@ -1,12 +1,58 @@
-# React + Vite
+# Trip Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Trip Planner** est une application React.js qui vous aide à planifier votre voyage en intégrant plusieurs fonctionnalités utiles, notamment une checklist de voyage, un convertisseur de devises, une application météo et un générateur de citations inspirantes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies utilisées
 
-## Expanding the ESLint configuration
+- **React.js** + **Vite** (pour le développement rapide de l'application)
+- **React Router** (pour la gestion de la navigation entre les différentes pages)
+- **Axios/fetch** (pour récupérer des données via des API externes)
+- **CSS Modules** ou **Tailwind CSS** (pour le style et la mise en page)
+  
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Fonctionnalités
+
+1. **Checklist de voyage**
+   - Créez, modifiez et réorganisez une liste de choses à emporter pour votre voyage (passeport, chargeurs, etc.).
+   
+2. **Convertisseur de devises**
+   - Convertissez des montants entre différentes devises (par exemple, EUR ↔ USD).
+
+3. **Application météo**
+   - Affichez la météo actuelle de votre destination en récupérant les données via une API publique.
+
+4. **Générateur de citations**
+   - Découvrez une citation inspirante chaque fois que vous cliquez pour motiver votre voyage.
+
+---
+
+## Installation
+
+Clonez le dépôt et installez les dépendances :
+
+```bash
+git clone https://github.com/Bristhis25/Trip-Planner.git
+cd Trip-Planner
+npm install
+```
+
+Lancer l'application
+
+```bash
+npm run dev
+```
+Accédez à http://localhost:3000 dans votre navigateur pour voir l'application en action.
+## Contribuer
+
+Si vous souhaitez contribuer à ce projet, veuillez suivre ces étapes :
+
+1. Forkez le dépôt.
+2. Créez une nouvelle branche (`git checkout -b feature/nouvelle-fonctionnalité`).
+3. Implémentez vos modifications.
+4. Testez vos changements.
+5. Soumettez une pull request (`git push origin feature/nouvelle-fonctionnalité`).
+6. Assurez-vous de documenter vos modifications et d'expliquer les nouvelles fonctionnalités ajoutées.
+
